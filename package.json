@@ -1,0 +1,26 @@
+{
+  "name": "beep-aniket",
+  "version": "2.1.0",
+  "description": "This is a beeper module",
+  "main": "index.js",
+  "bin": {
+    "beep": "command.js"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "beep",
+    "sound",
+    "module"
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/anik3tra0/beeper"
+  },
+  "author": "anik3tra0",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "3.0.1"
+  }
+}
